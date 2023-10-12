@@ -1,10 +1,10 @@
 #! -*- encoding=utf-8 -*-
 
-import socket
+from computer_network import socket_demo
 
 
 def server():
-    s = socket.socket()
+    s = socket_demo.socket()
     hots = "127.0.0.1"
     port = 6666
     s.bind((hots, port))

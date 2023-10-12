@@ -1,8 +1,8 @@
 #! -*- encoding=utf-8 -*-
 import threading
 import psutil
-from Task import Task, AsyncTask
-from Queue import ThreadSafeQueue
+from operate_system.Task import Task, AsyncTask
+from operate_system.Queue import ThreadSafeQueue
 
 
 # 任务处理线程
